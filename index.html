@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>shelter</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main/global.css">
+    <link rel="stylesheet" href="style/main/start-screen.css">
+    <link rel="stylesheet" href="style/main/about.css">
+    <link rel="stylesheet" href="style/main/pets.css">
+    <link rel="stylesheet" href="style/main/help.css">
+    <link rel="stylesheet" href="style/main/donation.css">
+    <link rel="stylesheet" href="style/main/footer.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="assets/icons/favicon.png">
+    <script src="scripts/main-checker.js"></script>
+  </head>
+  <body>
+    <div class="start-screen">
+      <header class="header">
+        <div class="header__menu">
+          <a href="#no_scroll" class="header__logo">
+            <p class="header__logo-title">
+              Cozy House
+            </p>
+            <p class="header__logo-subtitle">
+              Shelter for pets in Boston
+            </p>
+          </a>
+          <div class="header__menu-body-wrapper">
+            <nav class="header__menu-body">
+              <ul class="header__menu-list">
+                <li><a class="header__nav-link active" href="">About the shelter</a></li>
+                <li><a class="header__nav-link" href="pages/pets.html">Our pets</a></li>
+                <li><a class="header__nav-link" href="#help">Help the shelter</a></li>
+                <li><a class="header__nav-link" href="#footer">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__burger-menu">
+            <span class="header__burger-menu-line"></span>
+            <span class="header__burger-menu-line"></span>
+            <span class="header__burger-menu-line"></span>
+          </div>
+        </div>
+      </header>
+      <section id="not-only">
+        <div class="not-only__content">
+          <h1>
+            Not only people<br>
+            need a house
+          </h1>
+          <p>
+            We offer to give a chance to a little and nice puppy with an extremely
+            wide and open heart. He or she will love you more than anybody
+            else in the world, you will see!
+          </p>
+          <a href="#pets" class="not-only__button-primary button-primary">Make a friend</a>
+        </div>
+        <picture class="not-only__puppy">
+          <source srcset="assets/images/start-screen-puppy_698x728.png" type="image/png" media="(min-width: 1280px)">
+          <source srcset="assets/images/start-screen-puppy_569x593.png" type="image/png" media="(min-width: 768px)">
+          <source srcset="assets/images/start-screen-puppy_260x272.png" type="image/png" media="(max-width: 767px)">
+          <img src="assets/images/start_screen_puppy_698x728.png" alt="Cute puppy">
+        </picture>
+      </section>
+    </div>
+    <main>
+      <div class="about-wrapper">
+        <section id="about">
+          <picture class="about__pets">
+            <source srcset="assets/images/about-pets_300x408.png" type="image/png" media="(min-width: 1280px)">
+            <source srcset="assets/images/about-pets_300x408.png" type="image/png" media="(min-width: 768px)">
+            <source srcset="assets/images/about-pets_260x354.png" type="image/png" media="(max-width: 767px)">
+            <img src="assets/images/about_pets_300x408.png" alt="Dog and cat">
+          </picture>
+          <div class="about__content">
+            <h2 class="about__headline">
+              About the shelter<br>
+              "Cozy House"
+            </h2>
+            <p class="about__paragraph">
+              Currently we have 121 dogs and 342 cats on our hands
+              and statistics show that only 20% of them will find a family. The
+              others will continue to live with us and will be waiting for a lucky
+              chance to become dearly loved.
+            </p>
+            <p class="about__paragraph">
+              We feed our wards with the best food and make sure that they
+              do not get sick, feel comfortable (including psychologically) and
+              well. We are supported by 87 volunteers and 28 employees of
+              various skill levels. About 12% of the animals are taken by the
+              shelter staff. Taking care of the animals, they become attached
+              to the pets and would hardly ever leave them alone.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="pets-wrapper">
+        <section id="pets">
+          <h2 class="pets__header">
+            Our friends who<br>
+            are looking for a house
+          </h2>
+          <div class="pets__slider">
+            <button class="pets__button-arrow" id="pets__button-arrow-left">
+              <img src="assets/icons/pets/arrow_left.svg" alt="Arrow left">
+            </button>
+            <div class="pets__cards-viewport-wrapper">
+              <div class="pets__cards-viewport">
+                <div class="pets__cards">
+                  
+                </div>
+              </div>
+            </div>
+            <button class="pets__button-arrow" id="pets__button-arrow-right">
+              <img src="assets/icons/pets/arrow_right.svg" alt="Right arrow">
+            </button>
+          </div>
+          <a href="pages/pets.html" class="pets__button-primary button-primary">Get to know the rest</a>
+          <div class="popup">
+            <div class="popup__body">
+              <button class="popup__close-btn">
+                <img src="assets/icons/pets/close-btn-cross.svg" alt="Cross">
+              </button>
+              <div class="popup__content">
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="help-wrapper">
+        <section id="help">
+          <h2 class="help__header">
+            How you can help <br>
+            our shelter
+          </h2>
+          <div class="help__cards">
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-pet-food.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-pet-food.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-pet-food.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-pet-food.svg" alt="Pet food icon">
+              </picture>
+              <p class="help__card-desc">Pet food</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-transportation.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-transportation.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-transportation.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-transportation.svg" alt="Transportation icon">
+              </picture>
+              <p class="help__card-desc">Transportation</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-toys.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-toys.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-toys.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-toys.svg" alt="Toys icon">
+              </picture>
+              <p class="help__card-desc">Toys</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-bowls-and-cups.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-bowls-and-cups.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-bowls-and-cups.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-bowls-and-cups.svg" alt="Bowls and cups icon">
+              </picture>
+              <p class="help__card-desc">Bowls and cups</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-shampoos.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-shampoos.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-shampoos.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-shampoos.svg" alt="Shampoos icon">
+              </picture>
+              <p class="help__card-desc">Shampoos</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-vitamins.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-vitamins.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-vitamins.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-vitamins.svg" alt="Vitamins icon">
+              </picture>
+              <p class="help__card-desc">Vitamins</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-medicines.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-medicines.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-medicines.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-medicines.svg" alt="Medicines icon">
+              </picture> 
+              <p class="help__card-desc">Medicines</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-collars-leashes.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-collars-leashes.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-collars-leashes.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-collars-leashes.svg" alt="Collars and leashes icon">
+              </picture>
+              <p class="help__card-desc">Collars / leashes</p>
+            </div>
+            <div class="help__card">
+              <picture class="help__card-icon">
+                <source srcset="assets/icons/help/60x60/icon-sleeping-area.svg" type="image/png" media="(min-width: 1280px)">
+                <source srcset="assets/icons/help/60x60/icon-sleeping-area.svg" type="image/png" media="(min-width: 768px)">
+                <source srcset="assets/icons/help/50x50/icon-sleeping-area.svg" type="image/png" media="(max-width: 767px)">
+                <img src="assets/icons/help/60x60/icon-sleeping-area.svg" alt="Sleeping areas icon">
+              </picture>
+              <p class="help__card-desc">Sleeping areas</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="donation-wrapper">
+        <section id="donation">
+          <picture class="donation__dog">
+            <source srcset="assets/images/donation-dog_505x261.png" type="image/png" media="(min-width: 1280px)">
+            <source srcset="assets/images/donation-dog_505x261.png" type="image/png" media="(min-width: 768px)">
+            <source srcset="assets/images/donation-dog_260x136.png" type="image/png" media="(max-width: 767px)">
+            <img src="assets/images/donation-dog_505x261.png" alt="Donation dog">
+          </picture>
+          <div class="donation__content">
+            <h2 class="donation__headline">
+              You can also <br>
+              make a donation
+            </h2>
+            <p class="donation__card-number-holder-caption">
+              Name of the bank / Type of bank account
+            </p>
+            <a href="#no_scroll" class="donation__card-number-holder">
+              <img src="assets/icons/donation/credit-card.svg" alt="Credit card icon" class="donation__credit-card-icon">
+              <p class="donation__card-number">
+                8380 2880 8028 8791 7435
+              </p>
+            </a>
+            <p class="donation__disclaimer">
+              Legal information and lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac
+              diam. Praesent ultrices maximus tortor et vulputate. Interdum et
+              malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="footer-wrapper">
+      <footer id="footer">
+        <div class="footer__contacts">
+          <h2 class="footer__contacts-headline">
+            For questions
+            and suggestions
+          </h2>
+          <a href="mailto:email@shelter.com" class="footer__contact">
+            <img src="assets/icons/footer/icon-email.svg" alt="E-mail icon" class="footer__contact-icon">
+            <p class="footer__contact-caption">
+              email@shelter.com
+            </p> 
+          </a>
+          <a href="tel:+136745767554" class="footer__contact">
+            <img src="assets/icons/footer/icon-phone.svg" alt="Phone icon" class="footer__contact-icon">
+            <p class="footer__contact-caption">
+              +13 674 576 75 54
+            </p>
+          </a>
+        </div>
+        <div class="footer__locations">
+          <h2 class="footer__locations-headline">
+            We are waiting
+            for your visit
+          </h2>
+          <a href="https://www.google.com/maps/@42.3585999,-71.0552238,12z" class="footer__location">
+            <img src="assets/icons/footer/icon-marker.svg" alt="Location icon" class="footer__location-icon">
+            <p class="footer__location-caption">
+              1 Central Street, Boston<br>
+              (entrance from the store)
+            </p>
+          </a>
+          <a href="https://www.google.com/maps/@51.4690849,-0.1966838,12z" class="footer__location">
+            <img src="assets/icons/footer/icon-marker.svg" alt="Location icon" class="footer__location-icon">
+            <p class="footer__location-caption">
+              18 South Park, London
+            </p> 
+          </a>
+        </div>
+        <picture class="footer__puppy">
+          <source srcset="assets/images/footer-puppy_300x310.png" type="image/png" media="(min-width: 1280px)">
+          <source srcset="assets/images/footer-puppy_300x310.png" type="image/png" media="(min-width: 768px)">
+          <source srcset="assets/images/footer-puppy_260x269.png" type="image/png" media="(max-width: 767px)">
+          <img src="assets/images/footer-puppy_300x310.png" alt="Cute puppy">
+        </picture>
+      </footer>
+    </div>
+    <script src="scripts/init-popup.js"></script>
+    <script src="scripts/burger-menu.js"></script>
+    <script src="scripts/main-pets-section-slider.js"></script>
+  </body>
+</html>
