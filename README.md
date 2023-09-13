@@ -11,4 +11,4 @@ Shelter is an adaptive & interactive landing page for a company, that provides a
 - using JavaScript to implement the functionality specified in the task
 
 ## Technology stack
-[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,figma,vscode&perline=5)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,git,figma,vscode&perline=6)](https://skillicons.dev)
