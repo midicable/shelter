@@ -1,6 +1,4 @@
-# Shelter
-
-## About the project
+# Shelter🐶🐱
 ![shelter](https://github.com/midicable/shelter/assets/104969521/ee2a8b04-9134-419c-a468-1512df78c52b)
 
 Shelter is an adaptive & interactive landing page for a company, that provides a safe and loving environment for abandoned, neglected and abused animals. Shelter is dedicated to finding them forever homes, where they can experience love, care and happines!
